@@ -3,3 +3,53 @@
 body {
 	background-color: #aaccaa;
 }
+
+
+#game-canvas{
+	position:relative;
+	/*asset inside canvas*/
+	background-image: url('../img/arena/bkgnd_1992.png');
+	width:960px;
+	height:400px;}
+
+	#white-house{
+		position: absolute;
+		background-image: url('../img/arena/whitehouse.png');
+		width: 150px;
+		height: 400px;
+		right: 0;
+}
+	.game-chacater{
+		position: absolute;
+		width: 50px;
+		height:50px;
+		background-size:100% 100%;}
+	#trump{
+		background-image: url('../img/player/trump.png');
+		top: 75px;
+		left: 0px
+	}
+	#clintion{
+		background-image: url('../img/bricks/clinton.png');
+		left: 50px
+	}
+	#cruz{
+		background-image: url('../img/bricks/cruz.png');
+		left: 100px
+	}
+	#kasich{
+		background-image: url('../img/bricks/kasich.png');
+		left: 150px
+	}
+	#stein{
+		background-image: url('../img/bricks/stein.png');
+		left: 200px
+	}
+	#sanders{
+		background-image: url('../img/bricks/sanders.png');
+		left: 250px
+	}
+	#johnson{
+		background-image: url('../img/bricks/johnson.png');
+		left: 300px
+	}
