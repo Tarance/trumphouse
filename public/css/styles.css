@@ -4,52 +4,68 @@ body {
 	background-color: #aaccaa;
 }
 
-
-#game-canvas{
-	position:relative;
-	/*asset inside canvas*/
-	background-image: url('../img/arena/bkgnd_1992.png');
-	width:960px;
-	height:400px;}
-
-	#white-house{
-		position: absolute;
-		background-image: url('../img/arena/whitehouse.png');
-		width: 150px;
-		height: 400px;
-		right: 0;
+#game-canvas {
+	position:relative; 
+	/* assets inside canvas position themselves relative to 
+	the canvas, NOT the entire browser window */
+	background-image: url( '../img/arena/bkgnd_1992.png' );
+	width: 700px;
+	height: 300px;
 }
-	.game-chacater{
-		position: absolute;
-		width: 50px;
-		height:50px;
-		background-size:100% 100%;}
-	#trump{
-		background-image: url('../img/player/trump.png');
-		top: 75px;
-		left: 0px
-	}
-	#clintion{
-		background-image: url('../img/bricks/clinton.png');
-		left: 50px
-	}
-	#cruz{
-		background-image: url('../img/bricks/cruz.png');
-		left: 100px
-	}
-	#kasich{
-		background-image: url('../img/bricks/kasich.png');
-		left: 150px
-	}
-	#stein{
-		background-image: url('../img/bricks/stein.png');
-		left: 200px
-	}
-	#sanders{
-		background-image: url('../img/bricks/sanders.png');
-		left: 250px
-	}
-	#johnson{
-		background-image: url('../img/bricks/johnson.png');
-		left: 300px
-	}
+
+#white-house {
+	position: absolute;
+	background-image: url( '../img/arena/whitehouse.png' );
+	width: 150px; /* width of background image */
+	height: 300px;  /* same height as game canvas */
+	right: 0; /* position on r.h. side of screen */
+}
+
+.game-character {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-size: 100% 100%;
+}
+
+#trump {
+	background-image: url( '../img/players/trump.png' );
+	top: 125px;
+	left: 0px;
+}
+
+#clinton {
+	background-image: url( '../img/bricks/clinton.png' );
+	top: 0px;
+	left: 500px;	
+}
+
+#cruz {
+	background-image: url( '../img/bricks/cruz.png' );
+	top: 50px;
+	left: 500px;	
+}
+
+#kasich {
+	background-image: url( '../img/bricks/kasich.png' );
+	top: 100px;
+	left: 500px;	
+}
+
+#sanders {
+	background-image: url( '../img/bricks/sanders.png' );
+	top: 150px;
+	left: 500px;	
+}
+
+#johnson {
+	background-image: url( '../img/bricks/johnson.png' );
+	top: 200px;
+	left: 500px;	
+}
+
+#stein {
+	background-image: url( '../img/bricks/stein.png' );
+	top:250px;
+	left: 500px;	
+}
