@@ -1,0 +1,14 @@
+var animate =(function() {
+
+
+function init(){
+console.log('in animate.init()');	
+
+}
+	
+return{
+	
+};
+
+}) ();
+

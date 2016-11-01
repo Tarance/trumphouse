@@ -4,10 +4,28 @@ body {
 	background-color: #aaccaa;
 }
 
+div {
+	box-sizing: content-box;
+}
+
+#ui-elements{
+	width:692px;
+	color:white;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	padding:4px;
+	font-size:16px;
+	background-color:#666;
+}
+
+
+
 #game-canvas {
 	position:relative; 
 	/* assets inside canvas position themselves relative to 
 	the canvas, NOT the entire browser window */
+	border:2px solid black;
 	background-image: url( '../img/arena/bkgnd_1992.png' );
 	width: 700px;
 	height: 300px;
